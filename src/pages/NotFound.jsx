@@ -1,0 +1,2 @@
+import React from 'react';
+import {Box,Typography,Button} from '@mui/material';import {Link} from 'react-router-dom';export default function NotFound(){return <Box textAlign="center" py={10}><Typography variant="h2" fontWeight={900}>404</Typography><Typography variant="h5" fontWeight={800}>This page is offside.</Typography><Typography color="text.secondary" my={2}>The page you’re looking for doesn’t exist.</Typography><Button component={Link} to="/" variant="contained">Back to dashboard</Button></Box>}
